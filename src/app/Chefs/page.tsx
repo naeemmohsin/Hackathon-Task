@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-export default function Chefs() {
+export default function page() {
   return (
     
       <div className='w-[1320px] h-[1386px] ml-[300px] my-[100px] grid grid-cols-4 grid-rows-3'>

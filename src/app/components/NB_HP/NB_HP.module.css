@@ -1,0 +1,36 @@
+.NB_HP{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1920px;
+    height: 90px;
+    margin-left: 300px;
+    padding-top: 32px;
+    .main{
+      width: 1320px;
+      height: 32px;
+      display: flex;
+    }
+  }
+  .search-input-container {
+    margin-left:600px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    
+    padding: 10px;
+    border: 1px solid #FF9F0D;
+    background-color:#0D0D0D;
+    border-right: none;
+    border-radius: 27px 27px 27px 27px;
+    width: 310px; /* Adjust width as needed */
+  }
+  
+  .search-icon {
+    padding: 10px;
+  
+    border-radius: 2.23px 2.23px 2.23px 2.23px;
+    cursor: pointer;
+  }

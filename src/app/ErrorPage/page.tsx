@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function ErrorPage() {
+export default function page() {
   return (
     <div className='w-[161px] h-[104px] top-[530px] left-[645px]  '>
       <h1 className='w-[161px] h-[104] mt-[530px] ml-[880px] font-bold text-[96px] text-[#FF9F0D]'>404</h1>
