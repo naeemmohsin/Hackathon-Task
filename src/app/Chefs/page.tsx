@@ -1,9 +1,17 @@
 import React from 'react'
 import Image from 'next/image'
+import NavBar from '../components/NavBar/page'
+import Header from '../components/Header/page'
+import Footer from '../components/Footer/page'
 
 export default function page() {
   return (
-    
+
+    <div className='w-[1920px] h-[2811px]'>
+
+     <NavBar/>
+     <Header/>
+
       <div className='w-[1320px] h-[1386px] ml-[300px] my-[100px] grid grid-cols-4 grid-rows-3'>
 
         <div className='w-[312px] h-[446px]' >
@@ -114,6 +122,10 @@ export default function page() {
              </ul>
         </div>
 
+      </div>
+
+      
+      <Footer/>
       </div>
   )
 }

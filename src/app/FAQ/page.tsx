@@ -1,9 +1,17 @@
 import React from 'react'
+import NavBar from '../components/NavBar/page'
+import Header from '../components/Header/page'
+import Footer from '../components/Footer/page'
 // import Image from 'next/image'
 
 export default function FAQ() {
   return (
-    
+
+<div className='w-[1920px] h-[2126px]'> 
+  <NavBar/>
+  <Header/>
+
+
 <div className=" w-[1320px] h-[702px] mt-[120px]">
 
 <div  className=" w-[771px] h-[88px] mb-[70px]"> 
@@ -61,6 +69,8 @@ export default function FAQ() {
       </div>
 
 </div>
+</div>
+<Footer/>
 </div>
 )
 }

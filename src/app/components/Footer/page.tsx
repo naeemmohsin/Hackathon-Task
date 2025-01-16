@@ -8,9 +8,9 @@ import { FaPinterest } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="w-[1920px] h-[774px] mt-[1274px] text-white bg-black">
+    <footer className="w-[1920px] h-[774px] text-white bg-black">
       {/* Footer Upper Container */}
-      <div className="w-[1169px] h-[112px] ml-[350px] py-[130px] gap-x-[250px] rounded  flex items-center justify-center">
+      <div  className="w-[1169px] h-[112px] ml-[350px] py-[130px] gap-x-[250px] rounded  flex items-center justify-center">
         <div>
           <h1 className=" font-bold text-[32px]">
             Still You Need Our Support ?

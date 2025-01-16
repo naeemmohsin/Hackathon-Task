@@ -6,13 +6,15 @@ export default function HomePage() {
   return (
 
 
-<div className="container">
+      // <div className="container">
+      <div className="bg-[url('/hp-image.png')] w-[1920px] h-[950px] bg-no-repeat bg-cover ">
   
-{/* Applying background image and styles */}
+        {/* Applying background image and adding styles in css */}
 
-{/* Inserted Navbar component over background image settings */}
-        
-<NB_HP/>
+        {/* Inserted Navbar component over background image settings */} 
+
+        <NB_HP/>
+
         {/* Section contains an image and tex with flex property */}  
         
         <div className="flex">
@@ -34,9 +36,9 @@ export default function HomePage() {
 
         </div>
 
-      <div className="ml-[150px] py-[100px]">
+      <div className="ml-[450px] my-[200px]">
       <Image src={"/H-image.png"}alt='A dish containing boiled eggs and rice and two leaves' 
-             width={800} height={650}/>
+             width={200} height={450}/>
       </div>
 
       </div>

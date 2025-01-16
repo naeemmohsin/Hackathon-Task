@@ -1,9 +1,14 @@
 import Image from "next/image";
+import Footer from "../components/Footer/page";
+import NavBar from "../components/NavBar/page";
+import Header from "../components/Header/page";
 export default function SignIn() {
   return (
     <div>
       <div>
-        <div className="w-[424px] h-[624px]  pl-[743px] flex justify-center items-center ">
+        <NavBar/>
+        <Header/>
+        <div className="w-[424px] h-[624px]  ml-[743px] mb-20 flex justify-center items-center ">
           <div>{/* Sign Up */}</div>
           <div className="w-[371px] h-[530px] relative left-[25px] mt-28 ">
             <div>
@@ -41,7 +46,7 @@ export default function SignIn() {
 
               <div className="h-[56px] gap-[16px] rounded-[4px] pt-[16px] pr-[122px] pb-[16px] pl-[122px] bg-[#FF9F0D]  text-white ">
                 <button className="w-[px] h-[24px] font-medium gap-[10px]">
-                  Sign Up
+                  Sign In
                 </button>
                 <br />
                 <p className=" w-[150px] h-[22px] ml-[120px] mt-[30px] text-black ">
@@ -76,6 +81,7 @@ export default function SignIn() {
             </div>
           </div>
         </div>
+        <Footer/>
       </div>
     </div>
   );

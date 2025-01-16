@@ -6,20 +6,20 @@ import Image from "next/image";
 
 export default function NavBar() {
   return (
+  
    
-      <nav id="navbar">
+      <div className="w-[1920px] h-[90px] bg-cover bg-[#0D0D0D] bg-no-repeat flex py-[29px]  ">
 
-<h1 className="w-[109px] h-[32px] mt-[4px] pb-[4px] font-bold text-[24px] ml-[605px] leading-[24px]  text-white">
-          <Image src={"/Foodtuck.png"} alt="" width={109} height={32}/>
-          </h1>
+      
+          <div className="h-[90px] flex">
 
-        <div className="navdiv">
-          
-          
+          <div className="w-[109px] h-[32px] font-bold text-[24px] leading-[24px]  text-white">
+          <Image src={"/Foodtuck.png"} alt="" width={109} height={32} className="ml-[300px]"/>
+          </div>
 
-          <div className="w-[508px] h-[24px] mt-[20px]  text-white">
+          <div className="w-[508px] h-[32px] ml-[551px]  text-white">
             
-            <Link className=" text-[#FF9F0D] " href="/HPbgImges/HPbgImg_1">
+            <Link className=" text-[#FF9F0D] " href="/Home">
               Home
             </Link>
 
@@ -48,6 +48,7 @@ export default function NavBar() {
             </Link>
             
           </div>
+        
 
 
           {/* <div className="flex mt-[4px] ">
@@ -58,7 +59,7 @@ export default function NavBar() {
 
 
           <div className=" mt-[4px]">
-            <ul className="flex ml-[700px] gap-7">
+            <ul className="flex ml-[318px] gap-7">
               <li><Image src={"/MagnifyingGlass.png"} alt="" width={24} height={24} /></li>
               <li><Image src={"/User.png"} alt="" width={24} height={24} /></li>
               <li><Image src={"/Tote.png"} alt="" width={24} height={24} /></li>
@@ -67,7 +68,7 @@ export default function NavBar() {
 
           
         </div>
-      </nav>
+      </div>
     
-  );
+  )
 }
