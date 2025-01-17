@@ -7,7 +7,7 @@ export default function SignIn() {
     <div>
       <div>
         <NavBar/>
-        <Header/>
+        <Header route="SignIn"/>
         <div className="w-[424px] h-[624px]  ml-[743px] mb-20 flex justify-center items-center ">
           <div>{/* Sign Up */}</div>
           <div className="w-[371px] h-[530px] relative left-[25px] mt-28 ">
